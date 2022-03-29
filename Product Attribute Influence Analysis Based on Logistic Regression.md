@@ -242,14 +242,14 @@ print('the AUC Value: ' , roc_auc)
 ```
 
 Output:
+![2022-03-29-00-26-46-image](https://user-images.githubusercontent.com/93023212/160509303-99a8dab5-e78a-4f34-9cf4-14b407c28088.png)
 
-![](C:\Users\hp\AppData\Roaming\marktext\images\2022-03-29-00-26-46-image.png)
 
 The variables battery, price, function, charge, brand, effect, user experience, and review length are significant under the 95% confidence level. So I concluded that these 7 variables (except the review length) are the most important factors for customers to consider when scoring the product. As for the variables power, quality, design, and delivery, they are not significant in this model, and the reason could be that customers have different perceptions of these product attributes, or they do not make a clear evaluation of the product based on these attributes. One more reason is that I did not find the suitable related words in my previous work.
 
  Delete the non-significant variables and run the regression again, the result is shown below:
+![2022-03-29-00-36-29-image](https://user-images.githubusercontent.com/93023212/160509318-ef304b83-72f6-4bfc-914b-e9bac2f5b894.png)
 
-![](C:\Users\hp\AppData\Roaming\marktext\images\2022-03-29-00-36-29-image.png)
 
 # Result visualization and analysis
 
@@ -280,7 +280,8 @@ draw_curve(fpr,tpr,roc_auc,'Product Attributes - Scoring Model')
 
 Output:
 
-<img src="file:///C:/Users/hp/AppData/Roaming/marktext/images/2022-03-29-00-39-02-image.png" title="" alt="" width="316">
+![2022-03-29-00-39-02-image](https://user-images.githubusercontent.com/93023212/160509390-acf83d29-5d6a-440c-88c7-3a803d5ce01f.png)
+
 
 With an AUC value of 0.76, this model fits quite well enough to explain the relationship between variables and dependent variables. I visualize the coefficients of the different variables:
 
