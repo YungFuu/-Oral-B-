@@ -6,4 +6,3 @@
 3. 机器学习&逻辑回归 Machine Learning & Logistic Regression
 4. 数据可视化 Data Visualization
 
-目前暂时将逻辑回归的部分代码放出来，等以后有空（立下Flag）了（可能）会再写写NLP的部分。
